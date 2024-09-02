@@ -3,9 +3,11 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        hostname: "adventurous-caiman-790.convex.cloud",
+        protocol: "https",
+        hostname: "*.convex.cloud",
       },
     ],
+    domains: ['convex.cloud'],
   },
 };
 

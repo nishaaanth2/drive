@@ -38,6 +38,7 @@ export async function hasAccessToOrg(
     .first();
 
   if (!user) {
+    console.log(`user not found for token: ${identity.tokenIdentifier}`);
     return null;
   }
 
