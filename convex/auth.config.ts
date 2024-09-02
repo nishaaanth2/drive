@@ -1,7 +1,7 @@
 export default {
   providers: [
     {
-      domain: "https://awaited-primate-88.clerk.accounts.dev",
+      domain: process.env.CLERK_DOMAIN,
       applicationID: "convex",
     },
   ],
