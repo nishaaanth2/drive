@@ -42,7 +42,7 @@ export default function AboutPage() {
 
             <h2 className="text-2xl font-semibold mb-4">Our Mission</h2>
             <p className="mb-6">
-              At Drive, we're committed to providing a learning platform that simulates a seamless and secure file storage and sharing experience. Our goal is to demonstrate how file management systems can be simplified while maintaining high standards of data protection and accessibility.
+              At Drive, we&apos;re committed to providing a learning platform that simulates a seamless and secure file storage and sharing experience. Our goal is to demonstrate how file management systems can be simplified while maintaining high standards of data protection and accessibility.
             </p>
 
             <h2 className="text-2xl font-semibold mb-4">Key Features</h2>
